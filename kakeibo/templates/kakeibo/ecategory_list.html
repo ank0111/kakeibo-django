@@ -1,0 +1,6 @@
+
+
+<form action="{% url 'kakeibo:index' %}" method="post">
+    {% csrf_token %}
+    <input type="submit" value="register">
+</form>
